@@ -25,7 +25,8 @@
     align-items: center;
     background-color: white;
 }
-  
+
+
 .form-section {
     font-size: 15px;
     color: rgb(186, 186, 186);
@@ -38,7 +39,7 @@
 }
   
 .form-section h1 {
-    color: black;
+    color: rgb(185, 185, 185);
     font-size: 28px;
 }
   
@@ -68,30 +69,30 @@
     border: 1px solid #ccc;
     border-radius: 8px;
 }
-  
+
 .form-anchor {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 0;
 }
-  
+
 .checkbox {
     display: flex;
     align-items: center;
     gap: 6px;
 }
-  
+
 .anchor {
     margin-left: 0;
 }
-  
+
 .form-anchor a {
     text-decoration: none;
     color: rgb(85, 85, 255);
     font-size: 14px;
 }
-  
+
 .sign-in-btn {
     margin-top: 10px;
 }
@@ -106,24 +107,120 @@
     border: none;
     font-weight: bold;
 }
-  
+
 .footer-section {
     margin-top: 10px;
     font-size: 14px;
     text-align: center;
 }
-  
+
 .footer-section a {
     text-decoration: none;
     color: rgb(85, 85, 255);
 }
 
-.wrapper hr{
-    width: 100%;
-    height: 1px;
-    background-color: rgb(217, 217, 217);
-    margin: 30px 0 20px;
-    border: none;
-    margin-top: 10px;
+.or-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    gap: 10px;
 }
+  
+.or-section hr {
+    flex: 1;
+    height: 1px;
+    background-color: rgb(207, 207, 207);
+    border: none;
+}
+
+.or {
+    color: rgb(180, 180, 180);
+    font-size: 13px;
+    font-weight: lighter;
+    white-space: nowrap;
+}
+
+.footer-logos{
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-logos .facebook-logo{
+    color: blue;
+}
+
+.footer-logos .twitter-logo{
+   color: lightskyblue;
+}
+
+.google-logo{
+    color: rgb(250, 29, 29);
+}
+
+@media screen and (max-width: 1100px) {
+    .wrapper {
+      flex-direction: column;
+    }
+  
+    .left-section {
+      display: none;
+}
+  
+    .wrapper-form-section {
+      width: 100%;
+      height: 100vh;
+      padding: 20px;
+}
+  
+    .form-section {
+      max-width: 100%;
+      padding: 20px;
+      text-align: center;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .form-section h1 {
+      font-size: 24px;
+     
+}
+  
+    .form-section h2 {
+      font-size: 18px
+}
+  
+    .form-section p,
+    .form-anchor a {
+      font-size: 13px;
+    }
+  
+    .sign-in-btn button {
+      font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form-section {
+      padding: 16px;
+      gap: 12px;
+    }
+  
+    .form-input input {
+      height: 40px;
+    }
+  
+    .sign-in-btn button {
+      height: 40px;
+      font-size: 13px;
+    }
+  
+    .footer-logos {
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+}
+  
   
