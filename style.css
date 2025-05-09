@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.left-section{
+    background-color:rgb(245 244 249);
+}
+
 .wrapper {
     display: flex;
     height: 100vh;
@@ -13,7 +17,7 @@
 .left-section {
     width: 60%;
     background-image: url('./src/image.png');
-    background-size: cover;
+    background-size: inherit;
     background-position: center;
     background-repeat: no-repeat;
 }
