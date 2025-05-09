@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+  
+.left-section {
+    width: 60%;
+    background-image: url('./src/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper-form-section {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+  
+.form-section {
+    font-size: 15px;
+    color: rgb(186, 186, 186);
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+  
+.form-section h1 {
+    color: black;
+    font-size: 28px;
+}
+  
+.form-section h2 {
+    margin-top: 0;
+    color: black;
+    font-size: 20px;
+}
+  
+.form-section p {
+    margin-top: -8px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+  
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+  
+.form-input input {
+    width: 100%;
+    height: 45px;
+    padding: 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+  
+.form-anchor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+  
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+  
+.anchor {
+    margin-left: 0;
+}
+  
+.form-anchor a {
+    text-decoration: none;
+    color: rgb(85, 85, 255);
+    font-size: 14px;
+}
+  
+.sign-in-btn {
+    margin-top: 10px;
+}
+  
+.sign-in-btn button {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(85, 85, 255);
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+  
+.footer-section {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+  
+.footer-section a {
+    text-decoration: none;
+    color: rgb(85, 85, 255);
+}
+
+.wrapper hr{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(217, 217, 217);
+    margin: 30px 0 20px;
+    border: none;
+    margin-top: 10px;
+}
+  
